@@ -1,0 +1,13 @@
+Package: extractKM
+Type: Package
+Title: Functions that Extract Data from the Kaplan Meier (KM) Curve
+Version: 0.1.0
+Author: Hyunsoo Hwang
+Maintainer: Hyunsoo Hwang <ilsanjoa@gmail.com>
+Description: The algorithm by Guyot et al.(2012) derives data from KM curve that are close to the original individual patient time-to-event data (IPD). The functions in this package map from digitised curves back to KM data using the algorithm in an easier and more convenient way. There are 3 functions which require different information types or conditions. 
+Imports: Rdpack
+RdMacros: Rdpack
+License: GPL-3
+Encoding: UTF-8
+LazyData: TRUE
+RoxygenNote: 7.1.1
