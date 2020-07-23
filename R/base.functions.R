@@ -31,7 +31,7 @@ data.org <- function(data){
 #' @param upper.T numeric vector; number of data points at end between time intervals in the number at risk table
 #' @param t.event number of events
 #' @param gr.number name for the group
-#' @iomportFrom graphics hist
+#' @importFrom graphics hist
 #' @keywords internal
 #' @export
 #' @return data frame with time to event, censoring, and group name information
