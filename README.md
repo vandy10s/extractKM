@@ -7,9 +7,24 @@ remotes::install_github("vandy10s/extractKM")
 ```
 
 ### 1. km.table
-`km.table` derives or extracts IPD when only number at risk table information are available. To check the exmaple, run the following command. 
+`km.table` function derives or extracts IPD when only number at risk table information are available. To check the exmaple, run the following command. 
 
 ```
 example(km.table)
 ```
 
+
+### 2. km.event
+`km.event` function derives or extracts IPD when only total number of events information are available. To check the exmaple, run the following command. 
+
+```
+example(km.event)
+```
+
+
+### 3. km.tab.event
+`km.tab.event` function derives or extracts IPD when both number at risk table and total number of events information are available. To check the exmaple, run the following command. 
+
+```
+example(km.tab.event)
+```
