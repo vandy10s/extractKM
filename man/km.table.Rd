@@ -22,7 +22,7 @@ data frame with time to event, censoring, and group name information
 This function derives or extracts IPD when only number at risk table information are available
 }
 \examples{
-df <- ex.event[,1:2]
+df <- ex.table[,1:2]
 df <- df[!is.na(df$x1) & !is.na(df$y1),]  # only valid data
 res1 <- km.table(t.risk.T = c(0,25,50,75,100,125),
                  n.risk.T = c(22,18,10,7,5,2),
