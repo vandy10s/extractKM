@@ -6,7 +6,7 @@ library(remotes)
 remotes::install_github("vandy10s/extractKM")
 ```
 
-1. km.table
+### 1. km.table
 `km.table` derives or extracts IPD when only number at risk table information are available. To check the exmaple, run the following command. 
 
 ```
